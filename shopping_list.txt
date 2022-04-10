@@ -1,5 +1,5 @@
-Jajca
-Sapun
-Sirenje
-Kaskaval
-Meso
+Jajca x 4
+Sapun x 6
+Sirenje x 3
+Kaskaval x 9
+Meso x 1
