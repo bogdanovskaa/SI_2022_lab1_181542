@@ -1,5 +1,11 @@
 Jajca x 4
-Sapun x 66
+Sapun x 6
 Sirenje x 3
+<<<<<<< HEAD
 Kaskaval x 9
 Meso x 4
+=======
+Kaskaval x 9
+Meso x 4
+Patiki
+>>>>>>> branch2

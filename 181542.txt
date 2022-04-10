@@ -1,0 +1,120 @@
+1 , 2 & 3 се направени.
+4. 
+C:\Users\Win10 Creator\Desktop\SI_lab1>git clone https://github.com/bogdanovskaa/SI_2022_lab1_181542
+C:\Users\Win10 Creator\Desktop\SI_lab1>cd SI_2022_lab1_181542
+
+5.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git add shopping_list.txt
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git commit -m "Add 5 items to the shopping list"
+
+6.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git add shopping_list.txt
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git commit -m "Add quantities to the items"
+
+7.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git branch branch1
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git branch branch2
+
+9.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git push origin master
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git push origin branch1
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git push origin branch2
+
+10.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git checkout branch1
+
+11.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git add shopping_list.txt
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git commit -m "Change quantity of item #5"
+
+12.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git checkout master
+
+13.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git add shopping_list.txt
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git commit -m "Change quantity of item #2"
+
+14.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git push origin branch1
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git push origin branch2
+
+15.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git checkout branch2
+
+16.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git add shopping_list.txt
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git commit -m "Modify item #4"
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git push origin branch2
+
+17.
+commit b673d3d39e36007871b7c0656021d7d03dacb57d (HEAD -> branch2)
+Author: bogdanovskaa <49886082+bogdanovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 04:36:29 2022 +0200
+
+    Modify item #4
+
+commit 4d2b8399a365a45f1e15fc9ea05422b81ecabf52
+Author: bogdanovskaa <49886082+bogdanovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 04:26:00 2022 +0200
+
+    Add quantities to the items
+
+commit 8d5c730f3c69268889b226f11571e09b4996cd65
+Author: bogdanovskaa <49886082+bogdanovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 04:21:46 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 703d3d9f27cf84afced91233d8d0b1111358aeb8
+Author: bogdanovskaa <49886082+bogdanovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 03:50:39 2022 +0200
+
+    Update README.md
+
+commit cb32df73d838f8074030fc94ae5952bcb8e99725
+Author: bogdanovskaa <49886082+bogdanovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 03:50:20 2022 +0200
+
+    Initial commit
+
+18.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git add shopping_list.txt
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git commit --amend -m "Modify #4 and add item #6"
+
+19.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git log
+commit b673d3d39e36007871b7c0656021d7d03dacb57d (HEAD -> branch2)
+Author: bogdanovskaa <49886082+bogdanovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 04:36:29 2022 +0200
+
+    Modify #4 and add item #6
+
+commit 4d2b8399a365a45f1e15fc9ea05422b81ecabf52
+Author: bogdanovskaa <49886082+bogdanovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 04:26:00 2022 +0200
+
+    Add quantities to the items
+
+commit 8d5c730f3c69268889b226f11571e09b4996cd65
+Author: bogdanovskaa <49886082+bogdanovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 04:21:46 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 703d3d9f27cf84afced91233d8d0b1111358aeb8
+Author: bogdanovskaa <49886082+bogdanovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 03:50:39 2022 +0200
+
+    Update README.md
+
+20.
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git checkout master
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git merge branch1
+
+21.При спојувањето на branch2 се појави конфликт.
+
+
+C:\Users\Win10 Creator\Desktop\SI_lab1\SI_2022_lab1_181542>git merge branch2
+Auto-merging shopping_list.txt
+CONFLICT (content): Merge conflict in shopping_list.txt
+Automatic merge failed; fix conflicts and then commit the result.v
