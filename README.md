@@ -1,1 +1,1 @@
-# SI_2022_lab1_181542
+Anastasija Bogdanovska 181542
