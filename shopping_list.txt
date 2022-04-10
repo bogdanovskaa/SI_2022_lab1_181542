@@ -1,5 +1,6 @@
 Jajca x 4
 Sapun x 6
 Sirenje x 3
-Kaskaval x 9
+Kaskaval x 99
 Meso x 1
+Patiki
